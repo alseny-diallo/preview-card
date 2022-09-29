@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces&display=swap");
+body {
+  background-color: hsl(0deg, 0%, 100%);
+  font-family: "Montserrat", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.preview-card {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 22px;
+  width: 80%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+.preview-card__banner {
+  background: url("../../images/image-product-mobile.jpg") no-repeat;
+  background-size: cover;
+  padding: 10rem;
+  border-radius: 15px 15px 0 0;
+}
+.preview-card__main {
+  padding: 2em;
+  font-size: 14px;
+}
+.preview-card__title {
+  font-size: large;
+  text-transform: uppercase;
+}
+.preview-card h1 {
+  font-family: "Fraunces", sans-serif;
+  font-size: 2rem;
+}
+.preview-card__price {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.preview-card__price p:first-child {
+  font-family: "Fraunces", sans-serif;
+  font-size: 2rem;
+  color: hsl(158deg, 36%, 37%);
+}
+.preview-card__price p:last-child {
+  text-decoration: line-through;
+}
+.preview-card button {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 3rem;
+  color: hsl(30deg, 38%, 92%);
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: hsl(158deg, 36%, 37%);
+  border-radius: 10px;
+}
+.preview-card button:hover {
+  background-color: hsl(157deg, 37%, 22%);
+}
+
+@media (min-width: 600px) {
+  .preview-card {
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .preview-card__banner {
+    background: url("../../images/image-product-desktop.jpg") no-repeat;
+    background-size: cover;
+    border-radius: 15px 0 0 15px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
