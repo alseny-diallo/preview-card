@@ -1,6 +1,6 @@
 # Frontend Mentor - Product preview card component solution
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -27,7 +27,6 @@ Users should be able to:
 ### Screenshot
 
 ![desktop preview screenshot](./screenshots/Screenshot-desktop-preview.png)
-
 
 ### Links
 
@@ -63,6 +62,7 @@ To see how you can add code snippets, see below:
 </body>
 </html>
 ```
+
 ```scss
 $font-stack: Helvetica, sans-serif;
 $primary-color: #333;
@@ -77,4 +77,3 @@ h1 {
 
 - github - [alseny-diallo](https://github.com/alseny-diallo)
 - Twitter - [@yourusername](https://www.twitter.com/alsenydiallo09)
-
