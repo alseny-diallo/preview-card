@@ -77,11 +77,9 @@ body {
   .preview-card__main {
     padding: 0 2em 0 2em;
   }
-  .preview-card picture {
-    display: inline;
-    min-width: 100%;
-    min-height: 100%;
-    padding: 0;
+  .preview-card__banner img,
+.preview-card article {
+    height: 100%;
   }
   .preview-card__banner img {
     border-radius: 22px 0 0 22px;

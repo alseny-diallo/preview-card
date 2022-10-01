@@ -80,11 +80,10 @@ body {
     &__main {
       padding: 0 2em 0 2em;
     }
-    picture {
-      display: inline;
-      min-width: 100%;
-      min-height: 100%;
-      padding: 0;
+
+    &__banner img,
+    article {
+      height: 100%;
     }
     &__banner img {
       border-radius: 22px 0 0 22px;
