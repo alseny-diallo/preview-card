@@ -80,7 +80,6 @@ body {
   }
   .preview-card__banner img {
     border-radius: 22px 0 0 22px;
-    object-fit: cover;
   }
 }
 
