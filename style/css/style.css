@@ -74,9 +74,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  .preview-card__main {
-    padding: 0 2em 0 2em;
-  }
   .preview-card__banner img,
 .preview-card article {
     height: 100%;
