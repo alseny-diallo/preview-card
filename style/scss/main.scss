@@ -17,15 +17,12 @@ body {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   border-radius: 22px;
   background-color: hsl(0, 0%, 100%);
-  width: 100%;
+  width: 80%;
   max-width: 600px;
   display: flex;
   flex-direction: column;
-  &__banner {
-    background: url('../../images/image-product-mobile.jpg') no-repeat;
-    background-size: cover;
+  &__banner img {
     max-width: 100%;
-    padding: 10rem;
     border-radius: 15px 15px 0 0;
   }
   &__main {
@@ -34,6 +31,7 @@ body {
   &__title {
     font-size: large;
     text-transform: uppercase;
+    letter-spacing: 0.3rem;
   }
   &__title,
   &__paragraph {
@@ -79,10 +77,18 @@ body {
     flex-direction: row;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    &__banner {
-      background: url('../../images/image-product-desktop.jpg') no-repeat;
-      background-size: cover;
-      border-radius: 15px 0 0 15px;
+    &__main {
+      padding: 0 2em 0 2em;
+    }
+    picture {
+      display: inline;
+      min-width: 100%;
+      min-height: 100%;
+      padding: 0;
+    }
+    &__banner img {
+      border-radius: 22px 0 0 22px;
+      object-fit: cover;
     }
   }
 }

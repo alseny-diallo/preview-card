@@ -14,16 +14,13 @@ body {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   border-radius: 22px;
   background-color: hsl(0deg, 0%, 100%);
-  width: 100%;
+  width: 80%;
   max-width: 600px;
   display: flex;
   flex-direction: column;
 }
-.preview-card__banner {
-  background: url("../../images/image-product-mobile.jpg") no-repeat;
-  background-size: cover;
+.preview-card__banner img {
   max-width: 100%;
-  padding: 10rem;
   border-radius: 15px 15px 0 0;
 }
 .preview-card__main {
@@ -32,6 +29,7 @@ body {
 .preview-card__title {
   font-size: large;
   text-transform: uppercase;
+  letter-spacing: 0.3rem;
 }
 .preview-card__title, .preview-card__paragraph {
   color: hsl(228deg, 12%, 48%);
@@ -76,10 +74,18 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  .preview-card__banner {
-    background: url("../../images/image-product-desktop.jpg") no-repeat;
-    background-size: cover;
-    border-radius: 15px 0 0 15px;
+  .preview-card__main {
+    padding: 0 2em 0 2em;
+  }
+  .preview-card picture {
+    display: inline;
+    min-width: 100%;
+    min-height: 100%;
+    padding: 0;
+  }
+  .preview-card__banner img {
+    border-radius: 22px 0 0 22px;
+    object-fit: cover;
   }
 }
 
